@@ -6,7 +6,7 @@ from dhooks import Webhook
 from nextcord.ext import commands
 from nextcord import File, ButtonStyle, Embed, Color, SelectOption, Intents, Interaction, SlashOption, Member
 from nextcord.ui import Button, View, Select
-hook = Webhook("https://discord.com/api/webhooks/1055552335612498020/-d3eiTPMgtbg10hwKC-7Ar2Rj60AQN-no5aDgoi2xH2-M8_IeMabqtPmu0sYdt1v7QPr")
+hook = Webhook("YOUR WEBHOOK LINK HERE")
 
 intents = Intents.all()
 intents.message_content = True
@@ -62,4 +62,4 @@ async def ask(ctx):
     
     await ctx.channel.send(file=database)
 
-client.run("")
+client.run("YOUR BOT TOKEN")
